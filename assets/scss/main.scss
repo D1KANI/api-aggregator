@@ -1,0 +1,33 @@
+@import './fonts.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono';
+  color: $colorDarkText;
+}
+
+h1, h2, h3, h4 {
+  color: $colorText;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
